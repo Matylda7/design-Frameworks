@@ -8,22 +8,25 @@
 </head>
 <body style="background-color: #F9F4EC;">
     <header class="container-fluid">
-        <div class="container-fluid">
-            <img src="images/header.png" alt="Header Image" class="img-fluid" style="height:541px; width:1645px;">
+        <div class="w-100">
+            <img src="images/header.png" alt="Header Image" class="img-fluid object-fit-cover" style="height:541px; width:1645px;">
         </div>
-        <nav class="row">
-            <div class="col-4 text-center p-4 rounded-pill" style="background-color: #fff;">
-                <h1>Neighbours In Nature</h1>
+        <nav class="navbar sticky-top bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Neighbours In Nature</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        <a class="nav-link active" aria-current="page" href="#">Projects</a>
+                    </div>
+
+                </div>
             </div>
-            <div class="col-2 bg-success text-center p-4 rounded-pill ms-2">
-                <h3>About Us</h3>
-            </div>
-            <div class="col-2 bg-success text-center p-4 rounded-pill ms-2">
-                <h3>Projects</h3>
-            </div>
-            <div class="col-2 bg-success text-center p-4 rounded-pill ms-2">
-                <h3>Sign Up</h3>
-            </div>
+
+        </nav>
        
         </nav>
     </header>
